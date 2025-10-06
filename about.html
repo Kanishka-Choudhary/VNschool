@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | V.N. Public School</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+  <header class="bg-blue-900 text-white fixed w-full top-0 z-50 shadow-lg">
+    <nav class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <div class="flex items-center space-x-3">
+        <img src="images/logo.png" alt="School Logo" class="h-10 w-10 rounded-full border border-white" />
+        <div>
+          <h1 class="text-lg font-bold">V.N. Public School</h1>
+          <p class="text-sm italic">A Complete School by IITian</p>
+        </div>
+      </div>
+      <ul class="hidden md:flex space-x-6 font-medium">
+        <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
+        <li><a href="about.html" class="hover:text-yellow-300">About</a></li>
+        <li><a href="academics.html" class="hover:text-yellow-300">Academics</a></li>
+        <li><a href="admission.html" class="text-yellow-300">Admission</a></li>
+        <li><a href="gallery.html" class="hover:text-yellow-300">Gallery</a></li>
+        <li><a href="contact.html" class="hover:text-yellow-300">Contact</a></li>
+      </ul>
+      <button id="menu-btn" class="md:hidden text-white focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+    </nav>
+    <div id="mobile-menu" class="hidden bg-blue-800 md:hidden">
+      <ul class="flex flex-col text-center space-y-3 py-4">
+        <li><a href="index.html" class="block hover:text-yellow-300">Home</a></li>
+        <li><a href="about.html" class="block hover:text-yellow-300">About</a></li>
+        <li><a href="academics.html" class="block hover:text-yellow-300">Academics</a></li>
+        <li><a href="admission.html" class="block hover:text-yellow-300">Admission</a></li>
+        <li><a href="gallery.html" class="block hover:text-yellow-300">Gallery</a></li>
+        <li><a href="contact.html" class="block hover:text-yellow-300">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="pt-32 pb-16 max-w-6xl mx-auto px-6">
+    <h1 class="text-4xl font-bold text-blue-900 mb-8 text-center">About Us</h1>
+    <p class="text-lg mb-4">VN Public School was established with the vision of providing quality education and nurturing intellectual curiosity. Founded and guided by an IITian, our aim is to offer students a perfect balance of academics, values, and co-curricular activities.</p>
+    <p class="text-lg mb-4">We believe every child has unique potential. Through a supportive and challenging environment, we empower our students to become confident, responsible, and successful individuals.</p>
+    <h2 class="text-2xl font-semibold text-blue-800 mt-8 mb-4">Our Vision</h2>
+    <p>To create a learning environment that fosters excellence, innovation, and compassion among students.</p>
+    <h2 class="text-2xl font-semibold text-blue-800 mt-8 mb-4">Our Mission</h2>
+    <p>To provide holistic education that develops critical thinking, creativity, and moral values in every student.</p>
+  </section>
+
+  <footer class="bg-blue-900 text-white text-center py-6">
+    <p>&copy; 2025 V.N. Public School. All Rights Reserved.</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

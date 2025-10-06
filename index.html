@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>V.N. Public School | A Complete School by IITian</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="images/logo.png" />
+</head>
+<body class="font-sans text-gray-800">
+  <!-- Navbar -->
+  <header class="bg-blue-900 text-white fixed w-full top-0 z-50 shadow-lg">
+    <nav class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <div class="flex items-center space-x-3">
+        <img src="images/logo.png" alt="School Logo" class="h-10 w-10 rounded-full border border-white" />
+        <div>
+          <h1 class="text-lg font-bold">VN Public School</h1>
+          <p class="text-sm italic">A Complete School by IITian</p>
+        </div>
+      </div>
+      <ul class="hidden md:flex space-x-6 font-medium">
+        <li><a href="index.html" class="text-yellow-300">Home</a></li>
+        <li><a href="about.html" class="hover:text-yellow-300">About</a></li>
+        <li><a href="academics.html" class="hover:text-yellow-300">Academics</a></li>
+        <li><a href="admission.html" class="hover:text-yellow-300">Admission</a></li>
+        <li><a href="gallery.html" class="hover:text-yellow-300">Gallery</a></li>
+        <li><a href="contact.html" class="hover:text-yellow-300">Contact</a></li>
+      </ul>
+      <button id="menu-btn" class="md:hidden text-white focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+    </nav>
+    <div id="mobile-menu" class="hidden bg-blue-800 md:hidden">
+      <ul class="flex flex-col text-center space-y-3 py-4">
+        <li><a href="index.html" class="block hover:text-yellow-300">Home</a></li>
+        <li><a href="about.html" class="block hover:text-yellow-300">About</a></li>
+        <li><a href="academics.html" class="block hover:text-yellow-300">Academics</a></li>
+        <li><a href="admission.html" class="block hover:text-yellow-300">Admission</a></li>
+        <li><a href="gallery.html" class="block hover:text-yellow-300">Gallery</a></li>
+        <li><a href="contact.html" class="block hover:text-yellow-300">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <!-- Hero Slideshow -->
+<section class="relative h-screen mt-[80px] overflow-hidden">
+  <!-- Image Slides -->
+  <div class="absolute inset-0">
+    <img src="images/HOME1.jpg" class="slide w-full h-full object-cover absolute inset-0 opacity-100 transition-opacity duration-1000">
+    <img src="images/Home2.jpg" class="slide w-full h-full object-cover absolute inset-0 opacity-0 transition-opacity duration-1000">
+    <img src="images/HOME.jpg" class="slide w-full h-full object-cover absolute inset-0 opacity-0 transition-opacity duration-1000">
+  </div>
+
+  <!-- Overlay Content -->
+  <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-center text-white px-6">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to VN Public School</h1>
+    <p class="text-lg md:text-2xl mb-6">Empowering young minds for a brighter tomorrow</p>
+    <a href="about.html"
+      class="bg-yellow-400 text-blue-900 px-6 py-3 font-semibold rounded-full hover:bg-yellow-300 transition">Learn More</a>
+  </div>
+</section>
+
+
+  <!-- Notice Board -->
+  <section class="bg-blue-50 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center text-blue-900 mb-8">Latest Announcements</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white shadow-lg p-6 rounded-xl hover:shadow-2xl transition">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">Annual Function 2025</h3>
+          <p>Our Annual Function will be held on 15th November 2025. Parents are invited.</p>
+        </div>
+        <div class="bg-white shadow-lg p-6 rounded-xl hover:shadow-2xl transition">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">Admissions Open</h3>
+          <p>Admissions for the 2025-26 session are now open. Apply before 31st October.</p>
+        </div>
+        <div class="bg-white shadow-lg p-6 rounded-xl hover:shadow-2xl transition">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">Sports Day Celebration</h3>
+          <p>Join us for Sports Day on 25th October 2025 at the school playground.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center py-6">
+    <p>&copy; 2025 VN Public School. All Rights Reserved.</p>
+    <p>Designed by <span class="text-yellow-300 font-semibold">Kanishka Choudhary</span></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
