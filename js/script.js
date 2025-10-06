@@ -2,16 +2,10 @@
 const menuBtn = document.getElementById('menu-btn');
 const mobileMenu = document.getElementById('mobile-menu');
 
-if (menuBtn) {
-  menuBtn.addEventListener('click', () => {
+menuBtn.addEventListener('click', () => {
     mobileMenu.classList.toggle('hidden');
   });
-}
 
-// Mobile Menu Toggle
-document.getElementById('menu-btn').addEventListener('click', function() {
-  document.getElementById('mobile-menu').classList.toggle('hidden');
-});
 
 // Slideshow Logic
 let slides = document.querySelectorAll('.slide');
